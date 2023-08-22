@@ -37,8 +37,8 @@ var QualHeading = document.getElementById('QualHeading').value;
     </th>
   </tr>
   <tr align="center">
-    <td align="right" width="50%"><a href="https://www.joyoflifesurrogacy.com/surrogate-application-form/" rel="nofollow"><img src="https://www.joyoflifesurrogacy.com/wp-content/uploads/2023/08/Button.png" width="180"></a></td>
-    <td align="left" width="50%"><a href="https://www.joyoflifesurrogacy.com/contact-us/" rel="nofollow"><img src="https://www.joyoflifesurrogacy.com/wp-content/uploads/2023/08/Button-1.png" width="180"></a></td>
+    <td align="right" width="50%"><a href="https://www.joyoflifesurrogacy.com/surrogate-application-form/" rel="nofollow"><img src="https://www.joyoflifesurrogacy.com/wp-content/uploads/2023/08/Button-2.png" width="180"></a></td>
+    <td align="left" width="50%"><a href="https://www.joyoflifesurrogacy.com/contact-us/" rel="nofollow"><img src="https://www.joyoflifesurrogacy.com/wp-content/uploads/2023/08/Button-1-1.png" width="180"></a></td>
   </tr>
 </table>
 <br>
@@ -98,8 +98,8 @@ var QualHeading = document.getElementById('QualHeading').value;
 <br>
 <table width="100%">
   <tr align="center">
-    <td align="right" width="50%"><a href="https://www.joyoflifesurrogacy.com/surrogate-application-form/" rel="nofollow"><img src="https://www.joyoflifesurrogacy.com/wp-content/uploads/2023/08/Button.png" width="180"></a></td>
-    <td align="left" width="50%"><a href="https://www.joyoflifesurrogacy.com/contact-us/" rel="nofollow"><img src="https://www.joyoflifesurrogacy.com/wp-content/uploads/2023/08/Button-1.png" width="180"></a></td>
+    <td align="right" width="50%"><a href="https://www.joyoflifesurrogacy.com/surrogate-application-form/" rel="nofollow"><img src="https://www.joyoflifesurrogacy.com/wp-content/uploads/2023/08/Button-2.png" width="180"></a></td>
+    <td align="left" width="50%"><a href="https://www.joyoflifesurrogacy.com/contact-us/" rel="nofollow"><img src="https://www.joyoflifesurrogacy.com/wp-content/uploads/2023/08/Button-1-1.png" width="180"></a></td>
   </tr>
 </table>`;
 
