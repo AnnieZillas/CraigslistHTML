@@ -7,7 +7,7 @@ function generateHTML() {
     var listItems = document.getElementById('listItems').value.split('\n').map(item => `
       <tr>
         <td style="padding-top: 5px;padding-bottom: 5px;">
-          <font color="#E89889">❤ </font>
+          <font color="#75CBCF">❤ </font>
           <font face="arial">${item.trim()}</font>
         </td>
       </tr>
@@ -16,7 +16,7 @@ var QualHeading = document.getElementById('QualHeading').value;
     var QualList = document.getElementById('QualList').value.split('\n').map(item => `
       <tr>
         <td style="padding-top: 5px;padding-bottom: 5px;">
-          <font color="#E89889">❤ </font>
+          <font color="#75CBCF">❤ </font>
           <font face="arial">${item.trim()}</font>
         </td>
       </tr>
@@ -31,7 +31,7 @@ var QualHeading = document.getElementById('QualHeading').value;
   </tr>
   <tr align="center">
     <th colspan="2" style="padding-bottom:10px;padding-top:10px">
-      <font color="#75CBCF" face="arial" size="4">
+      <font color="#595959" face="arial" size="4">
         <b>${subtitle}</b>
       </font>
     </th>
@@ -50,7 +50,7 @@ var QualHeading = document.getElementById('QualHeading').value;
   </tr>
 </table>
 <br>
-<hr size="1" color="#E89989">
+<hr size="1" color="#75CBCF">
 <br>
 <table>
   <tr>
@@ -67,7 +67,7 @@ var QualHeading = document.getElementById('QualHeading').value;
   ${listItems}
 </table>
 <br>
-<hr size="1" color="#E89989">
+<hr size="1" color="#75CBCF">
 <br>
 <table>
   <tr>
@@ -84,12 +84,12 @@ var QualHeading = document.getElementById('QualHeading').value;
   ${QualList}
 </table>
 <br>
-<hr size="1" color="#E89989">
+<hr size="1" color="#75CBCF">
 <br>
 <table width="100%">
   <tr>
     <th align="center">
-  <font color="#75CBCF" face="arial" size="4">
+  <font color="#595959" face="arial" size="4">
     <b>${CTAText}</b>
   </font>
   </th>
