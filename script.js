@@ -24,14 +24,14 @@ var QualHeading = document.getElementById('QualHeading').value;
     var htmlCode = `<table width="100%">
   <tr align="center">
     <th colspan="2">
-      <font color="#A35D4F" face="arial" size="6">
+      <font color="#F2798B" face="arial" size="6">
         <b>${title}</b>
       </font>
     </th>
   </tr>
   <tr align="center">
     <th colspan="2" style="padding-bottom:10px;padding-top:10px">
-      <font color="#595959" face="arial" size="4">
+      <font color="#75CBCF" face="arial" size="4">
         <b>${subtitle}</b>
       </font>
     </th>
@@ -55,7 +55,7 @@ var QualHeading = document.getElementById('QualHeading').value;
 <table>
   <tr>
     <td align="left">
-      <font color="#A35D4F" face="arial" size="5">
+      <font color="#F1788A" face="arial" size="5">
         <b>${listHeading}</b>
       </font>
     </td>
@@ -72,7 +72,7 @@ var QualHeading = document.getElementById('QualHeading').value;
 <table>
   <tr>
     <td align="left">
-      <font color="#A35D4F" face="arial" size="5">
+      <font color="#F1788A" face="arial" size="5">
         <b>${QualHeading}</b>
       </font>
     </td>
@@ -89,7 +89,7 @@ var QualHeading = document.getElementById('QualHeading').value;
 <table width="100%">
   <tr>
     <th align="center">
-  <font color="#595959" face="arial" size="4">
+  <font color="#75CBCF" face="arial" size="4">
     <b>${CTAText}</b>
   </font>
   </th>
