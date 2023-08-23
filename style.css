@@ -15,8 +15,8 @@ body {
 }
 
 input {
-  margin-top: 5px;
-  margin-bottom: 15px;
+  margin-top: 3px;
+  margin-bottom: 10px;
   width: 100%;
     font-family: Arial;
 
@@ -31,8 +31,8 @@ input[type=text], select {
 }
 
 textarea {
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-top: 3px;
+  margin-bottom: 10px;
   font-family: Arial;
   width: 100%;
   padding: 12px 20px;
@@ -50,9 +50,9 @@ textarea {
 }
 
 .framediv {
-  border: 2px solid grey;
+  border: 1px solid grey;
   padding: 20px;
-  width: 80%;
+  width: 90%;
   background-color: white;
 }
 
@@ -61,10 +61,33 @@ textarea {
   box-sizing: border-box;
   font-family:'Arial';
 }
-
-#output {
-  width: 80%;
+.previewdiv img{
+  max-width:100%;
 }
-h2{
+#output {
+  width: 90%;
+}
+h1,h2{
   font-weight:600;
+}
+::-webkit-scrollbar{
+	width: 10px;
+}
+
+::-webkit-scrollbar-track-piece{
+	background-color: #FFF;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: #CBCBCB;
+	outline: 2px solid #FFF;
+	outline-offset: -2px;
+	border: .1px solid #B7B7B7;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color: #909090;
+}
+p {
+  font-weight:300;
 }
