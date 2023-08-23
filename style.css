@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 body {
-  font-family: 'Arial';
+  font-family: 'Open Sans', sans serif;
   background-color: #f5f5f5;
 }
 
@@ -15,14 +16,14 @@ body {
 
 input {
   margin-top: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   width: 100%;
-}
+    font-family: Arial;
 
+}
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -31,7 +32,7 @@ input[type=text], select {
 
 textarea {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-family: Arial;
   width: 100%;
   padding: 12px 20px;
@@ -58,8 +59,12 @@ textarea {
 .previewdiv {
   overflow: auto;
   box-sizing: border-box;
+  font-family:'Arial';
 }
 
 #output {
   width: 80%;
+}
+h2{
+  font-weight:600;
 }
