@@ -19,11 +19,26 @@ input {
   width: 100%;
 }
 
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 textarea {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 10px;
   font-family: Arial;
   width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 /* Clear floats after the columns */
