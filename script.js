@@ -2,6 +2,8 @@ function generateHTML() {
     var title = document.getElementById('title').value;
     var subtitle = document.getElementById('subtitle').value;
     var description = document.getElementById('description').value;
+    var imageOne = document.getElementById('imageOne').value;
+    var imageTwo = document.getElementById('imageTwo').value;
     var listHeading = document.getElementById('listHeading').value;
       var CTAText = document.getElementById('CTAText').value;
     var listItems = document.getElementById('listItems').value.split('\n').map(item => `
@@ -49,7 +51,10 @@ var QualHeading = document.getElementById('QualHeading').value;
     </td>
   </tr>
 </table>
+
 <center>
+<img src="${imageOne}">
+<br>
 <img src="https://www.joyoflifesurrogacy.com/wp-content/uploads/2023/08/divider-1.png">
 </center>
 <table>
@@ -68,6 +73,10 @@ var QualHeading = document.getElementById('QualHeading').value;
 </table>
 <br>
 <center>
+<img src="https://www.joyoflifesurrogacy.com/wp-content/uploads/2023/08/divider-1.png">
+<br>
+<img src="${imageTwo}">
+<br>
 <img src="https://www.joyoflifesurrogacy.com/wp-content/uploads/2023/08/divider-1.png">
 </center>
 <br>
