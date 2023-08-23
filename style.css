@@ -28,3 +28,7 @@ input{
   display: table;
   clear: both;
 }
+.previewdiv{
+    overflow: auto;
+  box-sizing: border-box;
+}
