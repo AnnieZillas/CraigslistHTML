@@ -31,7 +31,7 @@ input{
 .framediv{
     border: 2px solid grey;
   padding:20px;
-  width:80%;
+  width:100%;
   background-color:white;
 }
 .previewdiv{
@@ -39,6 +39,6 @@ input{
   box-sizing: border-box;
 }
 #output{
-    width:80%;
+    width:100%;
 
 }
