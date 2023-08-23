@@ -49,9 +49,9 @@ var QualHeading = document.getElementById('QualHeading').value;
     </td>
   </tr>
 </table>
-<br>
-<hr size="1" color="#75CBCF">
-<br>
+<center>
+<img src="https://www.joyoflifesurrogacy.com/wp-content/uploads/2023/08/divider-1.png">
+</center>
 <table>
   <tr>
     <td align="left">
