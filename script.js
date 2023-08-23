@@ -24,7 +24,7 @@ var QualHeading = document.getElementById('QualHeading').value;
     var htmlCode = `<table width="100%">
   <tr align="center">
     <th colspan="2">
-      <font color="#F2798B" face="arial" size="6">
+      <font color="#ce4b78" face="arial" size="6">
         <b>${title}</b>
       </font>
     </th>
@@ -55,7 +55,7 @@ var QualHeading = document.getElementById('QualHeading').value;
 <table>
   <tr>
     <td align="left">
-      <font color="#F1788A" face="arial" size="5">
+      <font color="#ce4b78" face="arial" size="5">
         <b>${listHeading}</b>
       </font>
     </td>
@@ -72,7 +72,7 @@ var QualHeading = document.getElementById('QualHeading').value;
 <table>
   <tr>
     <td align="left">
-      <font color="#F1788A" face="arial" size="5">
+      <font color="#ce4b78" face="arial" size="5">
         <b>${QualHeading}</b>
       </font>
     </td>
