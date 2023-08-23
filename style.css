@@ -28,13 +28,15 @@ input{
   display: table;
   clear: both;
 }
-.previewdiv{
-  overflow: auto;
-  box-sizing: border-box;
-  border: 2px solid grey;
+.framediv{
+    border: 2px solid grey;
   padding:20px;
   width:80%;
   background-color:white;
+}
+.previewdiv{
+  overflow: auto;
+  box-sizing: border-box;
 }
 #output{
     width:80%;
