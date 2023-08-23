@@ -67,7 +67,9 @@ var QualHeading = document.getElementById('QualHeading').value;
   ${listItems}
 </table>
 <br>
-<hr size="1" color="#75CBCF">
+<center>
+<img src="https://www.joyoflifesurrogacy.com/wp-content/uploads/2023/08/divider-1.png">
+</center>
 <br>
 <table>
   <tr>
@@ -83,9 +85,9 @@ var QualHeading = document.getElementById('QualHeading').value;
   </tr>
   ${QualList}
 </table>
-<br>
-<hr size="1" color="#75CBCF">
-<br>
+<center>
+<img src="https://www.joyoflifesurrogacy.com/wp-content/uploads/2023/08/divider-1.png">
+</center>
 <table width="100%">
   <tr>
     <th align="center">
