@@ -29,6 +29,10 @@ input{
   clear: both;
 }
 .previewdiv{
-    overflow: auto;
+  overflow: auto;
   box-sizing: border-box;
+  border: 2px solid grey;
+  padding:20px;
+  width:80%;
+  background-color:white;
 }
