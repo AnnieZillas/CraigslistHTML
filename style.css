@@ -1,44 +1,50 @@
-body{
-  font-family:'Arial';
-  background-color:#f5f5f5;
+body {
+  font-family: 'Arial';
+  background-color: #f5f5f5;
 }
-.row{
+
+.row {
   width: 100%;
 }
+
 .column {
   float: left;
   width: 46%;
-  padding:2%;
+  padding: 2%;
 }
-input{
-  margin-top:5px;
-  margin-bottom:10px;
-        width:100%;
 
+input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 100%;
 }
-    textarea {
-         margin-top:5px;
-  margin-bottom:10px;
-      font-family:Arial;
-      width:100%;
-    }
+
+textarea {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: Arial;
+  width: 100%;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-.framediv{
-    border: 2px solid grey;
-  padding:20px;
-  width:100%;
-  background-color:white;
+
+.framediv {
+  border: 2px solid grey;
+  padding: 20px;
+  width: 80%;
+  background-color: white;
 }
-.previewdiv{
+
+.previewdiv {
   overflow: auto;
   box-sizing: border-box;
 }
-#output{
-    width:100%;
 
+#output {
+  width: 80%;
 }
