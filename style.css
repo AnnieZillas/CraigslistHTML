@@ -8,9 +8,14 @@ body {
   width: 100%;
 }
 
-.column {
+.column-left {
   float: left;
-  width: 46%;
+  width: 36%;
+  padding: 2%;
+}
+.column-right {
+  float: left;
+  width: 56%;
   padding: 2%;
 }
 
@@ -23,7 +28,7 @@ input {
 }
 input[type=text], select {
   width: 100%;
-  padding: 12px 20px;
+  padding: 12px 12px;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -35,7 +40,7 @@ textarea {
   margin-bottom: 10px;
   font-family: Arial;
   width: 100%;
-  padding: 12px 20px;
+  padding: 12px 12px;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -50,7 +55,9 @@ textarea {
 }
 
 .framediv {
-  border: 1px solid grey;
+border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
   padding: 20px;
   width: 90%;
   background-color: white;
@@ -90,4 +97,22 @@ h1,h2{
 }
 p {
   font-weight:300;
+}
+button {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 10px 12px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Inline block */
+  font-size: 14px; /* Large text */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 12px; /* Rounded corners */
+  transition-duration: 0.4s; /* Transition effect */
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
 }
