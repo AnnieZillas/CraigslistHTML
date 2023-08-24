@@ -1,3 +1,10 @@
+function copyToClipboard() {
+  var outputText = document.getElementById('output');
+  outputText.select();
+  document.execCommand('copy');
+  alert('Text has been copied to clipboard');
+}
+
 function generateHTML() {
     var title = document.getElementById('title').value;
     var subtitle = document.getElementById('subtitle').value;
