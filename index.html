@@ -16,7 +16,7 @@
   <!-- Main Content Row -->
   <div class="row">
     <!-- Left Column for Customization Inputs -->
-    <div class="column">
+    <div class="column-left">
       <h2>Customize Text</h2>
       
       <!-- Title Input Field -->
@@ -76,10 +76,12 @@ You understand and respect the legal and ethical aspects of surrogacy.</textarea
     </div>
     
     <!-- Right Column for Output and Preview -->
-    <div class="column">
+    <div class="column-right">
       <h2>Output Code</h2>
       <p>Copy the code in this box and paste into the Craiglist post description:</p>
       <textarea id="output" rows="10" readonly></textarea>
+      <button onclick="copyToClipboard()">Copy Code to Clipboard</button>
+
       
       <!-- Preview Section -->
       <h2>Preview</h2>
